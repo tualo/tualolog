@@ -25,9 +25,9 @@ Ext.define('Tualo.routes.TualoLog', {
             }
         },
         before: function (action) {
-            Ext.require('Tualo.tualolog.lazy.Panel', function () {
-                action.resume();
-            }, this);
+            //Ext.require('Tualo.tualolog.lazy.Panel', function () {
+            action.resume();
+            //}, this);
         }
     }
 });
